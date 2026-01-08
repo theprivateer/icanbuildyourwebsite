@@ -14,7 +14,7 @@ class ContactController extends Controller
             'name', 'company', 'email', 'what', 'budget', 'description', 'more',
         ]);
 
-        Notification::route('mail', env('CONTACT_TO_EMAIL'))
+        Notification::route('mail', config('mail.to_email'))
             ->notify(new NewSubmission($fields));
 
         if  ($request->ajax()) {
