@@ -36,7 +36,7 @@
 
                 <p class="size-2xl">Tell me about your project. Let's get that website built.</p>
 
-                <kelp-form-ajax_
+                <kelp-form-ajax
                     msg-success="Thanks for reaching out - I will be in touch shortly!"
                     msg-class="callout"
                     >
@@ -89,7 +89,7 @@
 
                         <button type="submit" class="size-xl">Send</button>
                     </form>
-                </kelp-form-ajax_>
+                </kelp-form-ajax>
             </section>
         </main>
 
